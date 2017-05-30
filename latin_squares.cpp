@@ -1,7 +1,11 @@
+/*
+
+*/
+
 #ifndef __LATIN_SQUARES_CPP__
 #define __LATIN_SQUARES_CPP__
 #include "latin_squares.h"
-#include "graphs.h"
+//#include "graphs.h"
 #include <iostream>
 #include <stdlib.h>
 #include <stdint.h>
@@ -354,7 +358,7 @@ class TraversalNode* LS::get_all_traversals_for_value(uint16_t value){
   std::cout << "num_traversals: " << num_traversals << std::endl;
   return H;
 }
-
+/*
 class LS* LS::next_orthogonal_LS(){
   class LS* output = NULL;
   uint8_t consistent;
@@ -429,10 +433,10 @@ class LS* LS::next_orthogonal_LS(){
   std::cout << "num_traversals " << num_traversals << std::endl;
   std::cout << "num_LS " << num_LS << std::endl;
   return output;
-}
+}*/
 
 
-class LS* LS::next_orthogonal_LS2(){
+class LS* LS::next_orthogonal_LS(){
 
   class LS* output = NULL;
   uint8_t consistent;
